@@ -13,7 +13,6 @@ public class StoreImageInDatabase {
 
 		// Step1: Register driver
 		Class.forName("com.mysql.cj.jdbc.Driver");
-//9901322266
 		// Step2: Create Connection
 		Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/employee_details", "root",
 				"password");
